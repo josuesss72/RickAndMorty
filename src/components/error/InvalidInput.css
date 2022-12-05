@@ -1,0 +1,15 @@
+
+.textError {
+    text-align: center;
+}
+.imgError {
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rem;
+    width: 300px;
+    object-fit: cover;
+}
+
+.container_Error {    
+    height: 500px;
+}

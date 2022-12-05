@@ -1,0 +1,39 @@
+
+.header {
+    position: relative;
+    height: auto;
+}
+
+.bg_img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+.title {
+    color: #000000;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    opacity: 0.8;
+    text-align: center;
+    font-size: clamp(25px, 0.3rem + 5vw, 1000px);
+}
+.sticker {
+    width: 120px;
+    left: 5%;
+    top: 5%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0.8;
+}
+
+@media (min-width: 870px){
+    .sticker {
+        width: 150px;
+    }
+}
+@media (min-width: 1000px){
+    .sticker {
+        width: 200px;
+    }
+}

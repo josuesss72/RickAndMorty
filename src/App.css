@@ -1,0 +1,19 @@
+
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 130px 1fr;
+    gap: 3rem;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem; */
+}
+.container_residents {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
